@@ -48,7 +48,7 @@ $array_wetterdaten = array('datum' => $datum, 'uhr' => $zeit, 'temperatur' => $t
 	$antwort = json_encode($array_wetterdaten);
 	
 	//Zum Schluss muessen wir das JSON zuruecksenden:
-	//Quasi das "return" in Java
+	
 	echo $antwort;
 ?>
 		
