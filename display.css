@@ -1,0 +1,53 @@
+.Titel{
+	display: flex; 
+	justify-content: center; 
+	float: left;
+}
+
+h1{
+	display: flex; 
+	justify-content: center;
+	
+	float: left;
+	font-size:200px
+
+}
+
+
+h3{
+	
+	font-size:100px
+}
+
+h2{
+	
+	font-size:300px
+}
+
+#ausgabe{
+	display: flex; 
+	justify-content: center;
+	float: left;
+	vertical-align: baseline;
+	font-size:100px
+}
+
+
+img {width: 50%; height: auto; }
+
+@media (min-width: 500px) {
+   .container {
+      display: table;
+      width: 100%;
+      float: left;
+   }
+   .col {
+      display: table-cell;
+      box-sizing: border-box;
+      vertical-align: top
+   }
+
+   .col:nth-child(1) { width: 20%; }
+   .col:nth-child(2) { width: 50%; }
+   .col:nth-child(3) { width: 40%; }
+}
